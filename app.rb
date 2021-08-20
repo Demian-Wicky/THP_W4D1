@@ -8,7 +8,7 @@ require_relative 'lib/event'
 ####### SEED ####### ####### ####### ####### ####### ####### ####### 
 demian = User.new("dmn@gmail.com", 29)
 julie = User.new("julie@aol.com", 23)
-marion = User.new("marion@hormail.com", 25)
+marion = User.new("marion@hotmail.com", 25)
 mrtruc = User.new("truc@machin.com.com", 99)
 mrbidule = User.new("bidule@chose.fr", 99)
 
