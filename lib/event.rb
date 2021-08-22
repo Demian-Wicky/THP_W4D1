@@ -5,7 +5,7 @@ class Event
     @start_date = Time.parse(start_date_to_save)
     @duration = duration_to_save.to_i # minutes
     @title = title_to_save.to_s
-    @attendees = attendees_to_save.to_a
+    @attendees = attendees_to_save
   end
 
   def postpone_24h
